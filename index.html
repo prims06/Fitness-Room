@@ -16,9 +16,9 @@
     <nav>
       <ul>
         <li><a href="#">Accueil</a></li>
-        <li><a href="#">Materiel</a></li>
-        <li><a href="#">Tarifs</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#equipement">Materiel</a></li>
+        <li><a href="#tarifs">Tarifs</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="accueil" id="home">
@@ -47,7 +47,7 @@
           dolor molestias culpa aperiam iure alias repellendus. Suscipit,
           voluptatum ratione?
         </p>
-        <img src="assets/images/point-1.jpg" alt="" class="deco-info">
+        <img src="assets/images/point-1.jpg" alt="" class="deco-info" />
       </div>
       <div class="carte-info">
         <div class="container-photo-info">
@@ -76,12 +76,18 @@
     <section id="choix" class="section-choix">
       <div class="entrainement-choix">
         <h3>Salle de sport</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque consequuntur totam iusto!</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
+          consequuntur totam iusto!
+        </p>
         <button class="btn-outline-choix" type="button">Voir les prix</button>
       </div>
       <div class="entrainement-choix">
         <h3>Cross Fit</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque consequuntur totam iusto!</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
+          consequuntur totam iusto!
+        </p>
         <button class="btn-outline-choix" type="button">Voir les prix</button>
       </div>
     </section>
@@ -101,10 +107,109 @@
 
     <div class="bloc-modale">
       <div class="bloc-img">
-        <img src="assets/images/pic-1.jpg" alt="">
+        <img src="" alt="" />
         <button class="fermeture-modale">X</button>
       </div>
     </div>
+
+    <section class="parallax">
+      <p class="parallax-txt">COURAGE</p>
+    </section>
+
+    <h2 class="titre-tarifs">TARIFS</h2>
+    <section id="tarifs">
+      <div class="carte-tarif">
+        <h3>BASIQUE</h3>
+        <p class="prix-carte"><span>20</span>/mois</p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          Salle Libre
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          24h/24
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/uncheck.svg" alt="" class="img-info-carte" />
+          Coach
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/uncheck.svg" alt="" class="img-info-carte" />
+          Cross Fit
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/uncheck.svg" alt="" class="img-info-carte" />
+          Massage
+        </p>
+      </div>
+      <div class="carte-tarif">
+        <h3>PRO</h3>
+        <p class="prix-carte"><span>40</span>/mois</p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          Salle Libre
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          24h/24
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          Coach
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/uncheck.svg" alt="" class="img-info-carte" />
+          Cross Fit
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/uncheck.svg" alt="" class="img-info-carte" />
+          Massage
+        </p>
+      </div>
+      <div class="carte-tarif">
+        <h3>GOLD</h3>
+        <p class="prix-carte"><span>60</span>/mois</p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          Salle Libre
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          24h/24
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          Coach
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          Cross Fit
+        </p>
+        <p class="infos-carte">
+          <img src="assets/images/check.svg" alt="" class="img-info-carte" />
+          Massage
+        </p>
+      </div>
+    </section>
+
+    <h2 class="titre-contact">Contactez-Nous</h2>
+    <section id="contact">
+      <form>
+        <label for="prenom">PRENOM</label>
+        <input type="text" name="" id="prenom">
+        <label for="nom">NOM</label>
+        <input type="text" name="" id="nom">
+        <label for="txt-area">MESSAGE</label>
+        <textarea name="" id="txt-area">
+        </textarea>
+        <button type="submit" class="form-btn">ENVOYER</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Tous droit reserver ©</p>
+    </footer>
+
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

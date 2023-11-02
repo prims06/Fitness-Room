@@ -15,3 +15,14 @@ modaleEquipement.addEventListener('click', function(){
   modaleEquipement.classList.remove('active-modale')
 })
 }
+
+
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', ()=>{
+  if(window.scrollY > 300){
+    nav.classList.add('anim-nav')
+  }else{
+    nav.classList.remove('anim-nav')
+  }
+})
