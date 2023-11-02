@@ -201,6 +201,7 @@ h1 {
 .carte-info{
   width: 350px;
   height: auto;
+  padding: 16px;
   margin: 0 20px 80px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   position: relative;
@@ -223,7 +224,7 @@ h1 {
 
 .carte-info p{
   color: #333 ;
-  text-align: center;
+  text-align: justify;
   font-size: 23px;
   padding: 0 5px 15px;
 }
@@ -484,14 +485,14 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 70%;
+  width: 90%;
   max-width: 1300px;
   min-width: 300px;
   margin: 0 auto 100px;
 }
 
 .carte-tarif{
-  width: 300px;
+  width: 350px;
   height: auto ;
   background-image: linear-gradient(45deg, transparent 0%, transparent 27%,rgba(214, 214, 214,0.06) 27%, rgba(214, 214, 214,0.06) 38%,transparent 38%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 39%,rgba(214, 214, 214,0.06) 39%, rgba(214, 214, 214,0.06) 68%,transparent 68%, transparent 100%),linear-gradient(90deg, transparent 0%, transparent 74%,rgba(214, 214, 214,0.06) 74%, rgba(214, 214, 214,0.06) 79%,transparent 79%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
   color: #f1f1f1;
